@@ -393,34 +393,7 @@ const App = () => {
         })}
       </div>
 
-      {/* Footer Info */}
-      <div className="max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 pb-12">
-        <div className="flex items-center gap-4 bg-white p-6 rounded-3xl border border-slate-200 shadow-sm group hover:border-blue-200 transition-colors">
-          <div className="bg-blue-100 p-3 rounded-2xl text-blue-600 transition-transform group-hover:scale-110">
-            <Code size={24} />
-          </div>
-          <div>
-            <p className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-1">
-              Repositorio HTML
-            </p>
-            <p className="text-sm font-extrabold text-slate-700 tracking-tight">
-              Vínculos de artes finales integrados en los cuerpos de email.
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center gap-4 bg-white p-6 rounded-3xl border border-slate-200 shadow-sm group hover:border-emerald-200 transition-colors">
-          <div className="bg-emerald-100 p-3 rounded-2xl text-emerald-600 transition-transform group-hover:scale-110">
-            <Smartphone size={24} />
-          </div>
-          <div>
-            <p className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-1">
-              Tipografía Corporativa
-            </p>
-            <p className="text-sm font-extrabold text-slate-700 tracking-tight">
-              Interfaz configurada con Plus Jakarta Sans para máxima
-              legibilidad.
-            </p>
-          </div>
+      
         </div>
       </div>
     </div>
